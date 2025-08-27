@@ -1,4 +1,6 @@
 
+/*
+
 #titulo{
     color: brown;
 }
@@ -32,9 +34,9 @@ nav{
             flex-direction: column;
         }
         /*sirve para decir que desde tales pixeles se comporte de tal forma*/
-    }
+    
 
-
+/*
 .columna{
     background-color: pink;
     color:gray;
@@ -56,18 +58,60 @@ nav{
             flex-direction: column;
             justify-content: center;
             flex-direction: column;
-            
-                  @media (max-width: 500px) {
+        }
+
         .columna{
             background:red;
             flex-direction: column;
             justify-content: center;
             width: 90%;
             text-align: center;
-            margin: 10px;
+            margin: px;
         }
     }
-  }
+  */
         /*sirve para decir que desde tales pixeles se comporte de tal forma*/
+
+
+.container{
+    margin: 0 auto;
+    width: 90%;
 }
 
+.columna{
+    border-style: double;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+}
+
+.BotonPrecio{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-style: double;
+    background-color: skyblue;
+    text-decoration: none;
+}
+
+.BotonPrecio:hover{
+    cursor: crosshair;
+    background-color: pink;
+}
+ 
+@media (max-width: 500px){
+    .columna{
+        flex-direction: column;
+        display: flex;
+        width: 70%;
+        background-color: red;
+    }
+}
+
+.prueba{
+    color: blue;
+}
+    
