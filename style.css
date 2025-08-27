@@ -1,0 +1,73 @@
+
+#titulo{
+    color: brown;
+}
+
+
+.nav-enlace{
+    background-color: pink;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 1px;
+}
+
+.nav-enlace:hover{
+    background-color: aqua;
+}
+
+nav{
+
+    background: rgb(204, 91, 110);
+    padding: 20px;
+    margin: 10px;
+    border-style: double;
+    border-width: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+    @media (max-width: 500px) {
+        nav{
+            background:red;
+            flex-direction: column;
+        }
+        /*sirve para decir que desde tales pixeles se comporte de tal forma*/
+    }
+
+
+.columna{
+    background-color: pink;
+    color:gray;
+    width: 30%;
+    margin: 10px;
+    border-style: double;
+    text-align: center;
+    
+}
+
+.Padre{
+    display:flex;
+    justify-content: space-around;
+}
+
+  @media (max-width: 500px) {
+        .Padre{
+            background:red;
+            flex-direction: column;
+            justify-content: center;
+            flex-direction: column;
+            
+                  @media (max-width: 500px) {
+        .columna{
+            background:red;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+            text-align: center;
+            margin: 10px;
+        }
+    }
+  }
+        /*sirve para decir que desde tales pixeles se comporte de tal forma*/
+}
+
