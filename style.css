@@ -1,117 +1,72 @@
-
-/*
-
-#titulo{
-    color: brown;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
 }
 
 
-.nav-enlace{
-    background-color: pink;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: none;
-    margin: 1px;
-}
-
-.nav-enlace:hover{
-    background-color: aqua;
-}
-
-nav{
-
-    background: rgb(204, 91, 110);
-    padding: 20px;
-    margin: 10px;
-    border-style: double;
-    border-width: 3px;
-    display: flex;
-    justify-content: space-around;
-}
-    @media (max-width: 500px) {
-        nav{
-            background:red;
-            flex-direction: column;
-        }
-        /*sirve para decir que desde tales pixeles se comporte de tal forma*/
-    
-
-/*
-.columna{
-    background-color: pink;
-    color:gray;
-    width: 30%;
-    margin: 10px;
-    border-style: double;
-    text-align: center;
-    
-}
-
-.Padre{
-    display:flex;
-    justify-content: space-around;
-}
-
-  @media (max-width: 500px) {
-        .Padre{
-            background:red;
-            flex-direction: column;
-            justify-content: center;
-            flex-direction: column;
-        }
-
-        .columna{
-            background:red;
-            flex-direction: column;
-            justify-content: center;
-            width: 90%;
-            text-align: center;
-            margin: px;
-        }
-    }
-  */
-        /*sirve para decir que desde tales pixeles se comporte de tal forma*/
-
-
-.container{
+.Contenedor{
     margin: 0 auto;
     width: 90%;
+    display: flex;        
+    justify-content: center;
 }
 
-.columna{
+
+.Plantas{
     border-style: double;
-    margin: 5px;
+    border-radius: 10px;
     display: inline-block;
-    text-align: center;
-    padding: 25px;
-    background-color: white;
-}
-
-.BotonPrecio{
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    font-size: 30px;
-    border-style: double;
-    background-color: skyblue;
-    text-decoration: none;
-}
-
-.BotonPrecio:hover{
-    cursor: crosshair;
-    background-color: pink;
-}
- 
-@media (max-width: 500px){
-    .columna{
-        flex-direction: column;
-        display: flex;
-        width: 70%;
-        background-color: red;
-    }
-}
-
-.prueba{
-    color: blue;
-}
+    justify-content: center;
     
+   
+    vertical-align: top;
+    padding: 50px;
+    padding-top: 0;
+    margin: 5px;
+    
+
+    text-align: center;
+
+    box-shadow: 0px 5px 10px;
+    background-color: green;
+
+    width: 120px;        
+    height: 380px;
+}
+
+
+.Plantas img{
+    max-width: 80px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.Boton{
+    text-decoration: none;
+    color: black;
+    border-style: double;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(229, 173, 182);
+    cursor: cell;
+}
+
+.Boton:hover{
+    background-color: blue;
+}
+
+.Bienvenida{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/Plantas/intro.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
