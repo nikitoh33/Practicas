@@ -29,7 +29,7 @@ body{
     text-align: center;
 
     box-shadow: 0px 5px 10px;
-    background-color: green;
+    background-color: rgb(177, 198, 170);
 
     width: 120px;        
     height: 380px;
@@ -49,7 +49,7 @@ body{
     font-size: 30px;
     padding: 5px;
     border-radius: 10px;
-    background-color: rgb(229, 173, 182);
+    background-color: greenyellow;
     cursor: cell;
 }
 
@@ -70,3 +70,21 @@ body{
     width: 100%;
     height: 600px;
 }
+
+table{
+    background-color: red;
+    font-size: 30px;
+     margin: 13px;
+     
+}
+
+table td{
+    background-color: blue;
+    padding: 10px;
+}
+
+table td:hover{
+    background-color: pink;
+    border-style: double;
+}
+
